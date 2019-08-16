@@ -3,7 +3,7 @@
   <head>
     <title>Dog Party</title>
     <link rel="stylesheet" type="text/css" href="styles1.css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="banner">
@@ -25,13 +25,16 @@
       </nav>
     </header>
     <div id="top_half">
-      <h1>A Site about <strong>Some Dogs</strong></h1>
-      <img class="dog_photo" src="images/dog1-sq.jpg" alt="tan dog with blue bandana looking at the camera" /> <!-- banner image of bandana dog -->
-      <form action="receiving_url">
-        <p id="form_name">Name</p>
-        <input id ="dog_name_box" type="name" name="dog_name" size="40" maxlength="40" />
-        <input id ="name_this_dog_button" type="Submit" name="submit" value="Name This Dog" />
-      </form>
+      <div id="top_box">
+        <h1>A Site about <span id="some_dogs">Some Dogs</span></h1>
+        <img class="dog_photo" src="images/dog1-sq.jpg" alt="tan dog with blue bandana looking at the camera" /> <!-- banner image of bandana dog -->
+        <form action="receiving_url">
+          <p id="form_name">Name</p>
+          <input id ="dog_name_box" type="name" name="dog_name" size="40" maxlength="40" />
+          <br>
+          <input id ="name_this_dog_button" type="Submit" name="submit" value="Name This Dog" />
+        </form>
+      </div>
     </div>
 
     <div id="bottom_half">
@@ -39,32 +42,40 @@
         <h2>How To Dog</h2>
         <img class="dog_photo" src="images/dog2-sq.jpg" alt="grey dog with tongue out" />
         <p class="column_paragraph">Dat tungg tho pupperino length boy.  borkdrive aqua doggo.  Maximum borkdrive long doggo extremely cuuuuuuute you are doing me the shock borkf, heckin good boys doggo doge.  The neighborhood pupper borkf smol corgo long water shoob stop it fren, boofers puppers heck ruff.</p>
-        <button class="bottom_buttons" type="button">
+        <!-- <button class="bottom_buttons" type="button">
           How
-        </button>
+        </button> -->
       </span>
       <span class="columns" id="middle_column">
         <h2>What Is Dogs</h2>
         <img class="dog_photo" src="images/dog3-sq.jpg" alt="fluffy black dog with red bandana" />
         <p class="column_paragraph">Long doggo smol borking doggo with a long snoot for pats pupperino h*ck heckin angery woofer shoober aqua doggo heck, doggo aqua doggo most angery pupper I have ever seen heckin angery woofer pupper.  ruff adorable doggo very hand taht feed shibe.  Extremely cuuuuuuuute corgo waggy wags stop it fren.</p>
-        <button class="bottom_buttons" type="button">
+        <!-- <button class="bottom_buttons" type="button">
           What
-        </button>
+        </button> -->
       </span>
       <span class="columns" id="right_column">
         <h2>Facts From Dog</h2>
         <img class="dog_photo" src="images/dog4-sq.jpg" alt="black dog with perky ears and a red bandana" />
         <p class="column_paragraph">Most angery pupper I have ever seen such treate heck, dat tungg tho.  You are doin me a concern shibe such treat ruff heck, stop it fren ur givin me a spook.  Puggorino long water shoob dat tungg tho very hand that feed shibe long bois he made many woofs.</p>
         <br><br>
-        <button class="bottom_buttons" type="button">
+        <!-- <button class="bottom_buttons" type="button">
           Facts
-        </button>
+        </button> -->
       </span>
     </div>
-
-
-
-
+    <div>
+      <button class="bottom_buttons" id = "left_bottom_button" type="button">
+        How
+      </button>
+      <button class="bottom_buttons" id = "middle_bottom_button" type="button">
+        What
+      </button>
+      <button class="bottom_buttons" id="right_bottom_button" type="button">
+        Facts
+      </button>
+    </div>
+    <br>
       <footer>
         <p>Learn About Dogs Online</p><br>
         <img src="images/twitter.svg" alt="Twitter logo" />

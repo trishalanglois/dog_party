@@ -17,8 +17,15 @@ a {
   font-weight: bolder;
 }
 
+.column_paragraph {
+  text-align: left;
+}
+
 div {
   margin: -10px;
+  width: 100%;
+  border: 3px solid red;
+  text-align: center;
 }
 header.banner {
   /* width: 100% 100%; */
@@ -157,18 +164,20 @@ h2 {
 }
 
 .bottom_buttons {
-  width: 32%;
-  height: 31px;
+  /* width: 32%;
+  height: 31px; */
+  width: 196px;
+  height: 33px;
+  color: #000000;
   color: #ffffff;
   background-color: #048eaa;
   border: none;
-  display: inline-block;
-  margin-bottom: 10px;
   /* position: bottom; */
 }
 
 #left_bottom_button {
   float: left;
+  margin-left: 3%;
 }
 
 #middle_bottom_button {
@@ -176,7 +185,7 @@ h2 {
 }
 
 #right_bottom_button {
-  margin-right: 15px;
+  margin-right: 3%;
   float: right;
 }
 

@@ -61,7 +61,8 @@ li {
 #top_box {
   margin: 0 auto;
   border: 3px solid red;
-  width: 40%;
+  width: 62%;
+  text-align: center;
 }
 
 h1 {
@@ -80,8 +81,9 @@ img.dog_photo {
 }
 
 form {
-  padding: 10px;
+  padding: 30px;
   border: 3px solid red;
+  display: inline-block;
 }
 
 
@@ -98,11 +100,13 @@ form {
 }
 
 #name_this_dog_button {
-  width: 247px;
-  height: 31px;
-  color: #000000;
-  background-color: #75e2e6;
-  border: none;
+width: 369px;
+height: 33px;
+color: #000000;
+background-color: #75e2e6;
+border: none;
+font-size: 14px;
+margin: 8px 6px 0px 0px;
 }
 
 .dog_photo {

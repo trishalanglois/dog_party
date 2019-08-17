@@ -190,9 +190,14 @@ footer {
 
 @media only screen and (min-width : 375px) and (max-device-width : 667px) {
 
+#top_half_content {
+  display: block;
+  width: 100%;
+}
 .columns {
   display: block;
   width: 100%
+  /* height: 200px; */
   }
 
 .li {

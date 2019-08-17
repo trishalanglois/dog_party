@@ -63,7 +63,8 @@ li {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/park.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 91%;
+  background-size: cover;
+  /* background-size: 100% 91%; */
 }
 
 h1 {
@@ -185,4 +186,16 @@ footer {
   color: #ffffff;
   padding: 10px;
   font-size: 15px;
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (-webkid-min-device-pixel-ratio: 2) {
+
+.columns {
+  display: block;
+  width: 100%
+  }
+
 }

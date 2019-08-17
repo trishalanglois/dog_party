@@ -7,4 +7,10 @@ Welcome to the best party in town!
 
 Get my dog party site to look like this: 
 
-![Dog Party Comp] (file:///Users/trishalanglois/Desktop/Screen%20Shot%202019-08-17%20at%2011.57.13%20AM.png "Dog Party Comp")
+![Dog Party Comp](https://i.imgur.com/1dn2CPt.jpg)
+
+## Outcome
+
+My dog party site looks like this:
+
+![Dog Party Site](https://i.imgur.com/FC2k8Gh.jpg)

@@ -22,39 +22,41 @@ a {
 }
 
 div {
-  margin: -10px;
   width: 100%;
-  border: 3px solid red;
+  border: 3px solid white;
   text-align: center;
+  /* height: auto; */
 }
 header.banner {
   /* width: 100% 100%; */
-  height: 65px;
+  /* height: 65px; */
   background-color: #75e2e6;
   border-bottom: 3px solid #048eaa;
-  margin: -22px;
-  /*change to pixels instead of percentages*/
+  margin: -25px;
+  position: relative;
+  z-index: 1;
+
 }
 
 nav.nav_bar {
   display: inline;
   float: right;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 
 li {
   display: inline;
   font-size: 12px;
-  padding-right: 10px;
+  padding-right: 25px;
   margin-bottom: 10px;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 
 #dog_icon {
     height: 40px;
-    margin-top: 15px;
-    margin-left: 15px;
-    border: 3px solid red;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* border: 3px solid red; */
     position: relative;
 }
 
@@ -62,12 +64,12 @@ li {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/park.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 92%;
+  background-size: 100% 91%;
 }
 
 #top_box {
   margin: 0 auto;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   width: 62%;
   text-align: center;
 }
@@ -89,15 +91,14 @@ img.dog_photo {
 
 form {
   padding: 30px;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   display: inline-block;
 }
-
 
 #form_name {
   color: #ffffff;
   text-align: left;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 
 #dog_name_box {

@@ -11,8 +11,15 @@ changeDogName.addEventListener('click', function() {
 
 var hideParagraph = document.getElementById('left_bottom_button');
 
-left_bottom_button.onclick = function() {
-  console.log('ruff ruff');
+hideParagraph.addEventListener('click', function() {
+  var paragraphToHide = document.querySelector('.column_paragraph');
+  if (paragraphToHide.style.display === 'none') {
+    paragraphToHide.style.display = "block";
+  } else {
+    paragraphToHide.style.display = "none";
+  }
+});
+
   // var hideParagraph = querySelector('.column_paragraph');
   //
   // if (hideParagraph.style.display !== 'none') {
@@ -20,10 +27,9 @@ left_bottom_button.onclick = function() {
   // } else {
   //   hideParagraph.style.display = 'block';
   // };
-};
 
 
-// var paragraphToHide = document.querySelector('.column_paragraph');
+
 
 // hideHowToDog.addEventListener('click', function() {
 //     paragraphToHide.toggleAttribute('column_paragraph')

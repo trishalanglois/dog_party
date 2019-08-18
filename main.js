@@ -23,30 +23,3 @@ hideParagraph ('column_paragraph1');
 hideParagraph('column_paragraph2');
 
 hideParagraph('column_paragraph3');
-
-// hideParagraph1.addEventListener('click', function() {
-//   var paragraph1ToHide = document.getElementById('column_paragraph1');
-//   if (paragraph1ToHide.style.display === 'none') {
-//     paragraph1ToHide.style.display = 'block';
-//   } else {
-//     paragraph1ToHide.style.display = 'none';
-//   }
-// });
-//
-// hideParagraph2.addEventListener('click', function(){
-//   var paragraph2ToHide = document.getElementById('column_paragraph2');
-//   if (paragraph2ToHide.style.display === 'none') {
-//     paragraph2ToHide.style.display = 'block';
-//   } else {
-//     paragraph2ToHide.style.display = 'none';
-//   }
-// });
-//
-// hideParagraph3.addEventListener('click', function() {
-//   var paragraph3ToHide = document.getElementById('column_paragraph3');
-//   if (paragraph3ToHide.style.display === 'none') {
-//     paragraph3ToHide.style.display = 'block';
-//   } else {
-//     paragraph3ToHide.style.display = 'none';
-//   }
-// });

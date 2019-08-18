@@ -6,3 +6,30 @@ var updateName = document.querySelector('#some_dogs');
 changeDogName.addEventListener('click', function() {
   updateName.innerText = nameInput.value;
 });
+
+//Iteration 3 JS
+
+var hideParagraph = document.getElementById('left_bottom_button');
+
+left_bottom_button.onclick = function() {
+  console.log('ruff ruff');
+  // var hideParagraph = querySelector('.column_paragraph');
+  //
+  // if (hideParagraph.style.display !== 'none') {
+  //   hideParagraph.style.display = 'none';
+  // } else {
+  //   hideParagraph.style.display = 'block';
+  // };
+};
+
+
+// var paragraphToHide = document.querySelector('.column_paragraph');
+
+// hideHowToDog.addEventListener('click', function() {
+//     paragraphToHide.toggleAttribute('column_paragraph')
+
+    // console.log('ruff ruff');
+// });
+
+//turn on display: hidden for the paragraph
+//turn off display: hidden for the paragraph

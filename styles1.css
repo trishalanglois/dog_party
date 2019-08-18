@@ -17,7 +17,7 @@ a {
   font-weight: bolder;
 }
 
-.column_paragraph {
+.column-paragraph {
   text-align: left;
 }
 
@@ -38,9 +38,10 @@ header.banner {
 
 }
 
-nav.nav_bar {
+nav.nav-bar {
   display: inline;
   float: right;
+  margin-right: 5%;
   /* border: 3px solid red; */
 }
 
@@ -51,7 +52,7 @@ li {
   /* border: 3px solid red; */
 }
 
-#dog_icon {
+#dog-icon {
     height: 40px;
     margin-top: 20px;
     margin-left: 20px;
@@ -59,7 +60,7 @@ li {
     position: relative;
 }
 
-#top_half {
+#top-half {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/park.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -73,11 +74,11 @@ h1 {
   font-weight: 100;
 }
 
-#some_dogs {
+#some-dogs {
   font-weight: bold;
 }
 
-img.dog_photo {
+img.dog-photo {
   display: block;
   margin: 0 auto;
 }
@@ -88,19 +89,19 @@ form {
   display: inline-block;
 }
 
-#form_name {
+#form-name {
   color: #ffffff;
   text-align: left;
   /* border: 3px solid red; */
 }
 
-#dog_name_box {
+#dog-name-box {
   margin-bottom: 15px;
   height: 30px;
   border: none;
 }
 
-#name_this_dog_button {
+#name-this-dog-button {
 width: 369px;
 height: 33px;
 color: #000000;
@@ -110,14 +111,14 @@ font-size: 14px;
 margin: 8px 6px 6px 0px;
 }
 
-.dog_photo {
+.dog-photo {
   border: 5px solid #048eaa;
   border-radius: 200px;
   width: 200px;
   height: 200px;
 }
 
-#bottom_half {
+#bottom-half {
   .clearfix:after
     content: ' ';
     display: table;
@@ -137,27 +138,27 @@ h2 {
   text-align: center;
 }
 
-.column_paragraph {
+.column-paragraph {
   color: #000000
   text-align: left;
 }
 
-#left_column {
+#left-column {
   float: left;
   display: inline-block;
 }
 
-#middle_column {
+#middle-column {
   display: inline-block;
   margin: 0px auto;
 }
 
-#right_column {
+#right-column {
   float: right;
   display: inline-block;
 }
 
-.bottom_buttons {
+.bottom-buttons {
   width: 196px;
   height: 33px;
   color: #000000;
@@ -166,16 +167,16 @@ h2 {
   border: none;
 }
 
-#left_bottom_button {
+#left-bottom-button {
   float: left;
   margin-left: 3%;
 }
 
-#middle_bottom_button {
+#middle-bottom-button {
   margin: 0 auto;
 }
 
-#right_bottom_button {
+#right-bottom-button {
   margin-right: 3%;
   float: right;
 }
@@ -190,7 +191,7 @@ footer {
 
 @media only screen and (min-width : 375px) and (max-device-width : 667px) {
 
-#top_half_content {
+#top-half-content {
   display: block;
   width: 100%;
 }
